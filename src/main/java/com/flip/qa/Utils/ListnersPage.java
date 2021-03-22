@@ -27,6 +27,8 @@ public class ListnersPage extends FlipTestBase implements ITestListener
 		// TODO Auto-generated method stub
 		log.info("*********************************************************************************************");
 		log.info("*******************************TestCase Started***********************************************");
+		log.info("*********************************************************************************************");
+		log.info("*******************************TestCase Started***********************************************");
 		log.info("Testcase with name "+result.getMethod().getMethodName()+" started at time "+result.getStartMillis());
 	}
 
