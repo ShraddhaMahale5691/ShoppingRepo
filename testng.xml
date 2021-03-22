@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+<listener class-name="com.flip.qa.Utils.AnotationTransformer"/>
+<listener class-name="com.flip.qa.Utils.ExtentReporterNG"/>
+<listener class-name="com.flip.qa.Utils.log"/>
+</listeners>
+  <test thread-count="5" name="Test" parallel="methods">
+    <classes>
+      <class name="com.flip.qa.testcases.FlipLoginTest"/>
+      
+          </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test2" parallel="methods">
+    <classes>
+     <class name="com.flip.qa.testcases.FlipHomePageTest"/>
+      
+          </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

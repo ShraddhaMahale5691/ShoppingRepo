@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-21T14:38:50Z" name="Suite" finished-at="2021-03-21T14:39:31Z" duration-ms="41306">
+    <groups>
+    </groups>
+    <test started-at="2021-03-21T14:38:50Z" name="Test" finished-at="2021-03-21T14:39:17Z" duration-ms="26711">
+      <class name="com.flip.qa.testcases.FlipLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flip.qa.testcases.FlipLoginTest@4e7912d8]" started-at="2021-03-21T20:08:50Z" name="setup" finished-at="2021-03-21T20:09:03Z" duration-ms="12667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginpageTitleTest()[pri:0, instance:com.flip.qa.testcases.FlipLoginTest@4e7912d8]" started-at="2021-03-21T20:09:03Z" name="LoginpageTitleTest" finished-at="2021-03-21T20:09:03Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTitleTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.flip.qa.testcases.FlipLoginTest@4e7912d8]" started-at="2021-03-21T20:09:03Z" name="close" finished-at="2021-03-21T20:09:04Z" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flip.qa.testcases.FlipLoginTest@4e7912d8]" started-at="2021-03-21T20:09:04Z" name="setup" finished-at="2021-03-21T20:09:16Z" duration-ms="11275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.flip.qa.testcases.FlipLoginTest@4e7912d8]" started-at="2021-03-21T20:09:16Z" name="LoginTest" data-provider="Credentials" finished-at="2021-03-21T20:09:16Z" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amols.tayade@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[redhat123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.flip.qa.testcases.FlipLoginTest@4e7912d8]" started-at="2021-03-21T20:09:16Z" name="close" finished-at="2021-03-21T20:09:17Z" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.flip.qa.testcases.FlipLoginTest -->
+    </test> <!-- Test -->
+    <test started-at="2021-03-21T14:39:17Z" name="Test2" finished-at="2021-03-21T14:39:31Z" duration-ms="14542">
+      <class name="com.flip.qa.testcases.FlipHomePageTest">
+        <test-method is-config="true" signature="Init()[pri:0, instance:com.flip.qa.testcases.FlipHomePageTest@50ad3bc1]" started-at="2021-03-21T20:09:17Z" name="Init" finished-at="2021-03-21T20:09:28Z" duration-ms="11202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="verifyHomepagetitleTest()[pri:0, instance:com.flip.qa.testcases.FlipHomePageTest@50ad3bc1]" started-at="2021-03-21T20:09:28Z" name="verifyHomepagetitleTest" finished-at="2021-03-21T20:09:30Z" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepagetitleTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.flip.qa.testcases.FlipHomePageTest@50ad3bc1]" started-at="2021-03-21T20:09:30Z" name="close" finished-at="2021-03-21T20:09:31Z" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.flip.qa.testcases.FlipHomePageTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

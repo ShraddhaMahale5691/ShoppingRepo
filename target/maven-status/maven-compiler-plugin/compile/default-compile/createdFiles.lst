@@ -1,0 +1,12 @@
+com\flip\qa\base\FlipTestBase.class
+com\flip\qa\Utils\ListnersPage.class
+com\flip\qa\Pages\FlipLogin.class
+com\flip\qa\Pages\Staples.class
+com\flip\qa\Utils\AnotationTransformer.class
+com\flip\qa\Utils\RetryAnalyser.class
+FlipCartDemoProject\Shopping\App.class
+com\flip\qa\Utils\log.class
+com\flip\qa\Utils\TestUtils.class
+com\flip\qa\Pages\CartPage.class
+com\flip\qa\Pages\HomePage.class
+com\flip\qa\Utils\ExtentReporterNG.class

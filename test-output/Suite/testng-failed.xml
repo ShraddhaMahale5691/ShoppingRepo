@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.flip.qa.Utils.AnotationTransformer"/>
+    <listener class-name="com.flip.qa.Utils.ExtentReporterNG"/>
+    <listener class-name="com.flip.qa.Utils.log"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.flip.qa.testcases.FlipHomePageTest">
+        <methods>
+          <include name="Init"/>
+          <include name="verifyHomepagetitleTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flip.qa.testcases.FlipHomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
