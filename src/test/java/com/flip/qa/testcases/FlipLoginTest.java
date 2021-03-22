@@ -43,6 +43,7 @@ public class FlipLoginTest extends FlipTestBase{
 	public void setup() throws IOException
 	{
 		///	Log.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Ready for setup%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+		///	Log.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Ready for setup%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 		init();
 		testutilobj = new TestUtils();
 		loginobj=new FlipLogin();
