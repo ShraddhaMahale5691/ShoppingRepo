@@ -29,6 +29,9 @@ public class ListnersPage extends FlipTestBase implements ITestListener
 		log.info("*******************************TestCase Started***********************************************");
 		log.info("*********************************************************************************************");
 		log.info("*******************************TestCase Started***********************************************");
+		
+		log.info("*******************************TestCase Started***********************************************");
+		log.info("*********************************************************************************************");
 		log.info("Testcase with name "+result.getMethod().getMethodName()+" started at time "+result.getStartMillis());
 	}
 

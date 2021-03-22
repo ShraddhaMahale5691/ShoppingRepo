@@ -47,6 +47,7 @@ public void verifyHomepagetitleTest() throws InterruptedException
 @AfterMethod
 public void close()
 {
+	System.out.println("Closing the browser");
 	closebrowser();
 }
 }
